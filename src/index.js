@@ -9,4 +9,4 @@ import 'react-typist/dist/Typist.css';
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// registerServiceWorker();
