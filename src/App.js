@@ -22,7 +22,7 @@ class App extends Component {
             <div className="App font">
                 <Router>
                     <div>
-                        <Navbar collapseOnSelect>
+                        <Navbar fixedTop={true} collapseOnSelect >
                             <Navbar.Header>
                                 <Navbar.Brand>
                                     <Link to="/">Home</Link>

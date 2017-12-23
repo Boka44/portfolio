@@ -56,8 +56,7 @@ export class Home extends Component {
 						<Info/>
 						<Stats/>
 						<br/>
-						<h3>Part of responsive web design is creating areas that move and dissapear as the screen changes.</h3>
-						<h3>Try resizing the page.</h3>
+						
 						
 					</Col>
 					</div>

@@ -45,9 +45,9 @@ export class About extends Component {
 				  			<Row>
 				  				
 								      
-			  					<Col xs={2}>
+			  					<Col  xsHidden sm={2}>
 							   
-							    	<Nav bsStyle="pills" stacked='false' id="aboutNav">
+							    	<Nav bsStyle="pills" stacked={true} id="aboutNav">
 								        <LinkContainer to="/about/mystory">
                                    			<NavItem eventKey={1} >My Story</NavItem>
                                 		</LinkContainer>
@@ -61,7 +61,25 @@ export class About extends Component {
 							          	
 							          	
 							     </Col>
-							     <Col xs={8}>
+
+							     <Col mdHidden lgHidden smHidden xs={12}>
+							   
+							    	<Nav bsStyle="pills" stacked={false} id="aboutNav">
+								        <LinkContainer to="/about/mystory">
+                                   			<NavItem eventKey={1} >My Story</NavItem>
+                                		</LinkContainer>
+                                		<LinkContainer to="/about/tech">
+                                   			<NavItem eventKey={1} >Tech</NavItem>
+                                		</LinkContainer>
+                                		<LinkContainer to="/about/projects">
+                                   			<NavItem eventKey={1} >Projects</NavItem>
+                                		</LinkContainer>
+                            		</Nav>
+							          	
+							          	
+							     </Col>
+
+							     <Col sm={8}>
 
 							        {routes.map((route, index) => (
 							         
@@ -74,7 +92,7 @@ export class About extends Component {
 							        ))}
 								   <Row>
 									
-									<Col xs={12} >
+									<Col xsHidden sm={12} >
 
 									      	
 								       	{routes.map((route, index) => (
@@ -92,6 +110,21 @@ export class About extends Component {
 								    
 								</Row>
 								</Col>
+								<Col smHidden mdHidden lgHidden xs={12} id="container">
+
+									      	
+								       	{routes.map((route, index) => (
+								         	
+								          	<Route
+								            	key={index}
+								            	path={route.path}
+								            	exact={route.exact}
+								            	component={route.main}
+								          	/>
+								        ))}
+									      	
+								     </Col>
+								
 							</Row>
 							
 					   </Grid>
@@ -126,15 +159,33 @@ const routes = [
   		path: '/about',
   		exact: true,
     	topbar: () => <h2></h2>,
-    	main: () => <div id="myStory" >
-    					<Typist avgTypingDelay={70} >
-    						<Typist.Delay ms={500} />
-							<span>Click a link to the left to hire me</span>
-							<Typist.Delay ms={500} />
-							<Typist.Backspace count={7} delay={200} />
-							<span>get to know me</span>
-						</Typist>
-					</div>
+    	main: () => <Grid>
+    					<Row>
+    						<Col sm={8} xsHidden>
+			    				<div id="myStory" >
+			    					<Typist avgTypingDelay={70} >
+			    						<Typist.Delay ms={500} />
+										<span>Click a link to the left to hire me</span>
+										<Typist.Delay ms={500} />
+										<Typist.Backspace count={7} delay={200} />
+										<span>get to know me</span>
+									</Typist>
+								</div>
+							</Col>
+							<Col xs={12} smHidden mdHidden lgHidden>
+								<div id="myStory" >
+			    					<Typist avgTypingDelay={70} >
+			    						<Typist.Delay ms={500} />
+										<span>Click a link above to hire me</span>
+										<Typist.Delay ms={500} />
+										<Typist.Backspace count={7} delay={200} />
+										<span>get to know me</span>
+									</Typist>
+								</div>
+							</Col>
+						</Row>
+					</Grid>
+
   	}
 ]
 

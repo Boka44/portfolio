@@ -35,8 +35,12 @@
   font-family: 'Open Sans';
 }
 
+body {
+  margin-top: 50px !important;
+}
+
 .navbar {
-  margin-bottom: 0px !important;
+  /*margin-bottom: 0px !important;*/
   color: #5B7B7F;
 }
 
@@ -145,4 +149,21 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   background-color: rgba(128,128,128, 0.5);
 
+}
+
+#container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+
+  #homeText {
+    font-size: 42px;
+  }
+
+  #myStory {
+    font-size: 15px;
+  }
 }
