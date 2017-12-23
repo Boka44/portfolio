@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.font {
+  font-family: 'Open Sans';
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+  color: #5B7B7F;
+}
+
+.navbar-inverse{
+  border-radius: 0px !important;
+}
+
+#homeBG{
+  background-color: #37B8AF;
+  height: 300px;
+  width: 100%;
+}
+
+#homeText {
+  padding-top: 40px;
+  font-size: 50px;
+  color: white;
+  
+}
+
+#homeMe {
+  background-color: #F1F1F1;
+  color: #03363D;
+  margin-top: 0px !important;
+  padding-bottom: 10px;
+}
+
+#aboutCard {
+  width: 200px;
+  height: 275px;
+  background-color: #F6F6F6;
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+  margin: 15px;
+  border: 1px solid;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+#cardImg {
+   
+   top: 50%;
+   left: 50%;
+   width: 80%;
+   
+  
+}
+
+#cancelPadding {
+  padding: 0px !important;
+}
+
+#profileContainer {
+  padding-right: 0px !important;
+  padding-left: 0px !important; 
+  margin-right: 0px !important; 
+  margin-left: 0px !important; 
+}
+
+#profileStats {
+  padding-top: 15px;
+  margin-right: auto; 
+  margin-left: auto; 
+}
+
+#profileStatsResp {
+  padding-bottom: 15px;
+  margin-right: auto; 
+  margin-left: auto; 
+}
+
+
+#aboutNav {
+  float: left;
+  margin: 0;
+}
+
+.nav-pills > li > a {
+    border-radius: 4px;
+    color: black !important;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: white !important;
+ /*   background-color: black !important;*/
+}
+
+#myStory {
+  font-size: 20px;
+}
+
+#aboutSubTitle {
+  background-color: #1717C6;
+  width: 100%;
+}
+
+#contactForm {
+  padding-top: 30px;
+}
+
+#fontFix {
+  font-size: 20px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: rgba(128,128,128, 0.5);
+
+}
