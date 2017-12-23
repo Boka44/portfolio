@@ -412,7 +412,7 @@ class Projects extends Component {
 	          update the app without refeshing the page.</p>
 	          <p>Next step is to predefine a list of cities for the user to select
 	          from a dropdown list.</p>
-	          <p>Not deployed due to API limits</p>
+	          <p>Will be deployed soon.</p>
 	          <p>Tech: Javascript, HTML, CSS, JSX, React.</p>
 	          <p>
 	            <Button bsStyle="primary" onClick={this.openWA}>View Images</Button>
