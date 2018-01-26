@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
 import Typist from 'react-typist';
-import bokaBG from '../images/boka.png';
-import westCoast from '../images/westCoast.PNG';
-import lookingGlass from '../images/lookingGlass.PNG';
+import bokaBG from '../images/boka.jpeg';
+import westCoast from '../images/westCoast.jpeg';
+import lookingGlass from '../images/lookingGlass.jpeg';
 import more from '../images/more.jpg';
-import portfolio from '../images/portfolio.PNG';
+import portfolio from '../images/portfolio.jpeg';
 
 
 export class Home extends Component {
@@ -51,7 +51,7 @@ export class Home extends Component {
 
 					
 				  	<h2>I build full stack, responsive web applications. Check out the about page to hear my story.</h2>
-				    <p><em>Below are some recent projets I have worked on.</em></p>
+				    <p><em>Below are some recent projects I have worked on.</em></p>
 				    <div className="fontOS">
 				    	<img src={lookingGlass} alt=""/>
 				    	<br/>
