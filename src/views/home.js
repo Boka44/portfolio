@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import {
-	HashRouter as Router,
-	Route,
-	Link,
-	Switch
-} from 'react-router-dom';
-import { About } from './about';
-import { Button, Col, Grid, Row, Image, ProgressBar, Well, Panel } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import Typist from 'react-typist';
+import bokaBG from '../images/boka.png';
+import westCoast from '../images/westCoast.PNG';
+import lookingGlass from '../images/lookingGlass.PNG';
+import more from '../images/more.jpg';
+import portfolio from '../images/portfolio.PNG';
 
 
 export class Home extends Component {
@@ -15,124 +13,79 @@ export class Home extends Component {
 
 	render(){
 		return(
-			<div>	
-			<div id="homeBG">
-				<div id="homeText">
-					<Typist avgTypingDelay={70} >
-						<Typist.Delay ms={1200} />
-						I am a dreamer
-						<Typist.Delay ms={500} />
-							<br />
-						a creator
-						<Typist.Delay ms={500} />
-							<br />
-						a web app developer
-					</Typist>
-				</div>	
-			</div>
+			<div id='homeBG' className='footerPadding'>	
+				
+				
+				
+				<Image src={bokaBG} id='homeBGImg' />
 
-			<Grid fluid={true} id="profileContainer">
-				<Row >
-					<Col xs={12} id="homeMe">
-						<Me/>
-					</Col>
-				</Row>
-			</Grid>
-			<Grid fluid={true}>
-				<Row>
-					<Col lgHidden md={12} sm={12} id='profileStats'>
-						<Info/>
-					</Col>
-				</Row>
-				<Row>
-					<div>
-					<Col lgHidden md={12} sm={12} id='profileStatsResp'>
-						<Stats/>
-					</Col>
-					<Col lg={6} md={12} id='profileStats' >
-						<Image src={require('../images/theChamptest.jpg')} responsive={true}/>
-					</Col>
-					<Col lg={6} mdHidden smHidden xsHidden id='profileStats'>
-						<Info/>
-						<Stats/>
-						<br/>
-						
-						
-					</Col>
-					</div>
-				</Row>
-
-			</Grid>		
-			</div>
+				<div id="homeText1">
+						<Typist avgTypingDelay={70} >
+							<Typist.Delay ms={1200} />
+							Web App Developer
+							<Typist.Delay ms={500} />
+								<br />
+							Musician
+							<Typist.Delay ms={500} />
+								<br />
+							Creator
+						</Typist>
+				</div>
+				
+				<div className="wrapper fontN" >
+				
+					<div id="homeText2">
+						<Typist avgTypingDelay={70} >
+							<Typist.Delay ms={1200} />
+							Web App Developer
+							<Typist.Delay ms={500} />
+								<br />
+							Musician
+							<Typist.Delay ms={500} />
+								<br />
+							Creator
+						</Typist>
 					
-		)
-	}
-}
+					
+					</div>
 
-class Stats extends Component {
-	constructor(props) {
-		super(props)
-		this.state={
-			isHiddenF: true,
-			isHiddenB: true
+					
+				  	<h2>I build full stack, responsive web applications. Check out the about page to hear my story.</h2>
+				    <p><em>Below are some recent projets I have worked on.</em></p>
+				    <div className="fontOS">
+				    	<img src={lookingGlass} alt=""/>
+				    	<br/>
+				    	<a href="https://stormy-woodland-25699.herokuapp.com/" target='_blank' rel="noopener noreferrer">
+				    	Click to view site</a>
+				    	<p>Static site made for a client.</p>
+				    	<p>Will be integrating new features soon.</p>
 
 
-		}
-		this.onClickF = this.onClickF.bind(this);
-		this.onClickB = this.onClickB.bind(this);
-	}
+						<p><em>Techs used: Javascript, HTML, CSS, Bootstrap, jQuery, Express, Node.</em></p>
+				    	<img src={westCoast} alt=""/>
+				    	<br/>
+				    	<a href="https://boka44.github.io/westCoast/" target='_blank' rel="noopener noreferrer">
+				    	Click to view site</a>
+				    	<p>Weather App for West Coast Cities.</p>
+				    	<p>User uses the client to select a city and view an eight day forecast.
+				    	The data comes from a RESTful API I created using node which stores up to date weather 
+				    	information in MongoDB.</p>
 
-	onClickF = () => {
-		this.setState({
-			isHiddenF: !this.state.isHiddenF
-		})
-	}
-	onClickB = () => {
-		this.setState({
-			isHiddenB: !this.state.isHiddenB
-		})
-	}
+				    	<p><em>Techs used: Javascript, HTML, CSS, React, Express, Node, MongoDB.</em></p>
+				    	<img src={portfolio} alt=""/>
+				    	<p>The site you are currently viewing.</p>
+				    	<p>Built using React. Uses a seperate Node server to handle the contact form with nodeMailer and send
+				    	the information to me as an email.</p>
+				    	<p><em>Techs used: Javascript, HTML, CSS, React, react-bootstrap, Express, Node.</em></p>
+				    	<img src={more} alt=""/>
+				    	<p>More projects are coming soon. The code can be viewed publicly on my Github.</p>
+				    </div>
 
-	render(){
-	return(
-	<div >
-	
-		<h1 >Front End</h1>
-		<Button onClick={this.onClickF} bsStyle="info" bsSize="large">Check Progress</Button>
-		<br/><br/>
-		{!this.state.isHiddenF && <ProgressBar id="homeButtonF">
-		    <ProgressBar active striped bsStyle="success" now={25} key={1} label="Javascript" />
-		    <ProgressBar active bsStyle="warning" now={15} key={2} label="HTML" />
-		    <ProgressBar active bsStyle="danger" now={15} key={3} label="CSS" />
-		    <ProgressBar active now={10} key={4} label="Bootstrap" />
-		    <ProgressBar active bsStyle="info" now={15} key={5} label="React" />
-		    <ProgressBar active striped bsStyle="success" now={10} key={6} label="jQuery" />
-		    <ProgressBar active bsStyle="warning" now={10} key={7} label="EJS" />
-  		</ProgressBar>}
+				</div>
 
-  		<h1> Back End</h1>
-  		<Button onClick={this.onClickB} bsStyle="info" bsSize="large">Check Progress</Button>
-  		<br/><br/>
-  		{!this.state.isHiddenB && <ProgressBar id="homeButtonB">
-		    <ProgressBar active striped bsStyle="success" now={40} key={1} label="Node" />
-		    <ProgressBar active bsStyle="warning" now={20} key={2} label="Express" />
-		    <ProgressBar active bsStyle="danger" now={30} key={3} label="C++" />
-		    <ProgressBar active bsStyle="primary" now={10} key={4} label="MySQL" /> 
-		  </ProgressBar>}
-		  
-	</div>	
+				
+			</div>
+			
 )
 }
 }
-
-const Me = () => (
-	<div>
-		<h2>Nicholas Hrboka</h2>
-	</div>
-)
-
-const Info = () => (
-	<div>
-  		<h3>I build responsive web applications. Check out the about page to hear my story.</h3>   
-	</div>
-)
