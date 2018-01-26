@@ -232,7 +232,7 @@ body {
 
 .wrapper a {
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
   padding-left: 5px;
   padding-right: 5px;
   margin-bottom: 0px !important;
@@ -373,7 +373,6 @@ body {
     height: auto;
     position: static;
     min-height: auto;
-    padding-top: 50px;
   }
 
   #aboutBG {
@@ -559,7 +558,6 @@ body {
     height: auto;
     position: static;
     min-height: auto;
-    padding-top: 50px;
   }
 
   #aboutBG {
@@ -745,7 +743,7 @@ body {
     height: auto;
     position: static;
     min-height: auto;
-    padding-top: 50px;
+    
   }
 
   #aboutBG {
