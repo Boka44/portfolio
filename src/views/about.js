@@ -48,7 +48,7 @@ const MyStory = () => (
 		<p>In March of 2017, I began teaching myself programming while at the time working a corporate sales 
 		job selling business loans. I enjoyed my past careers working with people in sales and recruiting, 
 		though I never quite found that feeling of fulfillment I was looking for with them. As I always had 
-		an interest in the tech industry, I started learning javascript on codeacademy.com after work evry day.
+		an interest in the tech industry, I started learning javascript on codeacademy.com after work every day.
 		<br/>
 		<br/> 
 		Soon after, I began creating personal projects using HTML and CSS. Eventually, I began teaching myself 

@@ -58,6 +58,8 @@ export class Home extends Component {
 				    	<a href="https://stormy-woodland-25699.herokuapp.com/" target='_blank' rel="noopener noreferrer">
 				    	Click to view site</a>
 				    	<p>Static site made for a client.</p>
+				    	<p>Looking Glass is a company in Redondo Beach that specializes in glass bottom boat 
+				    	tours. They also offer rentals for kayaks, stand up paddle boards, and pedal boats.</p>
 				    	<p>Will be integrating new features soon.</p>
 
 
