@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://boka44.github.io/portfolio",
+  "homepage": "https://boka44.github.io",
   "dependencies": {
     "express": "^4.16.2",
     "nodemailer": "^4.4.1",
