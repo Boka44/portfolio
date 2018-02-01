@@ -51,8 +51,10 @@ export class Home extends Component {
 
 					
 				  	<h2>I build full stack, responsive web applications. Check out the about page to hear my story.</h2>
-				    <p><em>Below are some recent projects I have worked on.</em></p>
+				    <hr/>
+				    <h1>Below are a few recent projects of mine.</h1>
 				    <div className="fontOS">
+				    	<hr/>
 				    	<img src={lookingGlass} alt=""/>
 				    	<br/>
 				    	<a href="https://stormy-woodland-25699.herokuapp.com/" target='_blank' rel="noopener noreferrer">
@@ -61,9 +63,10 @@ export class Home extends Component {
 				    	<p>Looking Glass is a company in Redondo Beach that specializes in glass bottom boat 
 				    	tours. They also offer rentals for kayaks, stand up paddle boards, and pedal boats.</p>
 				    	<p>Will be integrating new features soon.</p>
-
+				    
 
 						<p><em>Techs used: Javascript, HTML, CSS, Bootstrap, jQuery, Express, Node.</em></p>
+				    	<hr/>
 				    	<img src={westCoast} alt=""/>
 				    	<br/>
 				    	<a href="https://boka44.github.io/westCoast/" target='_blank' rel="noopener noreferrer">
@@ -72,13 +75,15 @@ export class Home extends Component {
 				    	<p>User uses the client to select a city and view an eight day forecast.
 				    	The data comes from a RESTful API I created using node which stores up to date weather 
 				    	information in MongoDB.</p>
-
+				    
 				    	<p><em>Techs used: Javascript, HTML, CSS, React, Express, Node, MongoDB.</em></p>
+				    	<hr/>
 				    	<img src={portfolio} alt=""/>
 				    	<p>The site you are currently viewing.</p>
 				    	<p>Built using React. Uses a seperate Node server to handle the contact form with nodeMailer and send
 				    	the information to me as an email.</p>
 				    	<p><em>Techs used: Javascript, HTML, CSS, React, react-bootstrap, Express, Node.</em></p>
+				    	<hr/>
 				    	<img src={more} alt=""/>
 				    	<p>More projects are coming soon. The code can be viewed publicly on my Github.</p>
 				    </div>
