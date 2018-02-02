@@ -69,7 +69,7 @@ export class Home extends Component {
 				    	<hr/>
 				    	<img src={westCoast} alt=""/>
 				    	<br/>
-				    	<a href="https://boka44.github.io/westCoast/" target='_blank' rel="noopener noreferrer">
+				    	<a href="http://codeboka.com/westCoast/" target='_blank' rel="noopener noreferrer">
 				    	Click to view site</a>
 				    	<p>Weather App for West Coast Cities.</p>
 				    	<p>User uses the client to select a city and view an eight day forecast.
