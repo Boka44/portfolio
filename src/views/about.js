@@ -63,7 +63,7 @@ const MyStory = () => (
 		the like. I love trying new things and making new experiences and look forward to my future as a software 
 		developer being one of them.</p>
 
-		<p>To read my full story, click the link below:</p>
+		<p>To read my full story on my blog, click the link below:</p>
 		<a href='https://hrboka.wordpress.com/2017/12/06/gitting-sick-story-time-with-boka-devember-day-5/' target='_blank' rel="noopener noreferrer">
 		My Story</a>
 	</div>
