@@ -56,8 +56,8 @@ const MyStory = () => (
 		programming lead to the quitting of my sales job in August to pursue a career and future as a software 
 		developer. Now I can create fullstack applications using Javascript, HTML, CSS, Node, and React. Took a 
 		C++ class at a local community college where I not only thoroughly enjoyed creating various new programs, 
-		I even scored a perfect 100% in the class. Constantly and consistently learning, I am currently working 
-		on Redux with a plan to jump into React Native and Python.</p>
+		I even scored a perfect 100% in the class. Currently working as a freelance developer with multiple clients
+		and a quickly growing portfolio.</p>
 		<hr/>
 		<p>I believe life should be a constant adventure. Hiking, road trips, live music, sports, swimming, gaming, and 
 		the like. I love trying new things and making new experiences and look forward to my future as a software 
