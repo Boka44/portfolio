@@ -69,7 +69,7 @@ export class Home extends Component {
 
 				    	<img src={barjoker} alt=""/>
 				    	<br/>
-				    	<a href="barjoker.pub" target='_blank' rel="noopener noreferrer">
+				    	<a href="http://barjoker.pub" target='_blank' rel="noopener noreferrer">
 				    	Click to view site</a>
 				    	<h2>barjoker.pub</h2>
 				    	<p>Original application where friends put themselves through situations involving strangers, 
