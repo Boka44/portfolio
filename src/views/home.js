@@ -7,7 +7,7 @@ import lookingGlass from '../images/lookingGlass.jpeg';
 import more from '../images/more.jpg';
 import portfolio from '../images/portfolio.jpeg';
 import barjoker from '../images/barjoker.PNG';
-
+import a2ndlife from '../images/2ndlife.jpg';
 
 export class Home extends Component {
 	
@@ -55,6 +55,15 @@ export class Home extends Component {
 				    <hr/>
 				    <h1>Below are a few recent projects of mine.</h1>
 				    <div className="fontOS">
+				    	<hr/>
+				    	<img src={a2ndlife} alt=""/>
+				    	<br/>
+				    	<a href="https://a2nd.life/" target='_blank' rel="noopener noreferrer">
+				    	Click to view site</a>
+				    	<h2>2nd Life</h2>
+				    	<p>Optimized page loading times from 20 seconds to 3.</p>
+				    	<p>Currently fixing other issues left by previous developers. Soon to start working on a new beta.</p>
+				    	<p><em>Techs used: Javascript, HTML, CSS, jQuery, PHP, Laravel, MySql, GoDaddy</em></p>
 				    	<hr/>
 				    	<img src={lookingGlass} alt=""/>
 				    	<br/>
