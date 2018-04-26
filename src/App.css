@@ -318,7 +318,42 @@ body {
 }
 
 .hiddenMobile {
-  margin-top: 140px;
+  margin-top: 110px;
+}
+
+#events {
+  margin: 15px;
+}
+
+#outreach {
+  padding-left: 100px;
+}
+
+#groups {
+  margin: 15px;
+  min-width: 200px;
+  max-width: 280px;
+  max-height: 200px;
+}
+
+#groupContainer {
+  display: inline-flex;
+  margin: auto;
+}
+
+.inverse {
+  background-color: black;
+  color: white;
+}
+
+#eventImage {
+  height: 180px;
+  max-width: 280px;
+  margin-bottom: 10px;
+}
+
+#eventImage:hover {
+  border: red solid 2px;
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
@@ -377,6 +412,10 @@ body {
     height: auto;
     position: static;
     min-height: auto;
+  }
+
+  #outreach {
+    padding-left: 0px;
   }
 
   #aboutBG {
@@ -578,6 +617,10 @@ body {
     min-width: 100vw;
   }
 
+  #outreach {
+    padding-left: 0px;
+  }
+
   #myStory {
     font-size: 18px;
   }
@@ -766,6 +809,10 @@ body {
     color: white;
     min-height: 100vh; 
     min-width: 100vw;
+  }
+
+  #outreach {
+    padding-left: 0px;
   }
 
   #myStory {

@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import { Home } from '../views/home';
 import { About } from '../views/about';
+import { Outreach } from '../views/outreach';
 import { Contact } from '../views/contact';
 
 export class Sidebar extends Component {
@@ -25,10 +26,11 @@ export class Sidebar extends Component {
 								<LinkContainer to="/about">
 									<p>About</p>
 								</LinkContainer>
-
-								
+								<LinkContainer to="/outreach">
+									<p>Outreach</p>
+								</LinkContainer>
 								<LinkContainer to="/contact">
-								<p>Contact</p>
+									<p>Contact</p>
 								</LinkContainer>
 								<div className='hiddenMobile'>
 									<a href='https://www.facebook.com/nicholas.hrboka' target='_blank' rel="noopener noreferrer" className="fa fa-facebook"/>
@@ -42,7 +44,7 @@ export class Sidebar extends Component {
 					</Grid>
 					<Route exact path="/" component={Home} />
                     <Route path="/about" component={About} />
-                    
+                    <Route path="/outreach" component={Outreach} />
                     <Route path="/contact" component={Contact} />
                 </div>
                     
