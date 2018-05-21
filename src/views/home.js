@@ -55,7 +55,6 @@ export class Home extends Component {
 				  	<h2>I build full stack, responsive web applications. My clients range from small, local businesses to startups.
 				  	Currently looking for a software engineer position within a company that can help me grow as developer.</h2>
 				    <hr/>
-				    <h1>Below are a few recent projects of mine.</h1>
 				    <div className="fontOS">
 				    	
 				    	<div className="projectCard">
@@ -79,6 +78,7 @@ export class Home extends Component {
 					    	<p>Looking Glass is a company in Redondo Beach that specializes in glass bottom boat 
 					    	tours. They also offer rentals for kayaks, stand up paddle boards, and pedal boats.</p>
 					    	<p>Will be integrating new features soon.</p>
+					    	<p><em>Techs used: Javascript, HTML, CSS, Bootstrap, jQuery, Express, Node.</em></p>
 				    	</div>
 				    	
 				    	<div className="projectCard">
@@ -94,7 +94,6 @@ export class Home extends Component {
 					    	<p><em>Techs used: Javascript, HTML, CSS, Bootstrap, jQuery, ejs, Express, Node, MySql, AWS, 
 					    	Digital Ocean.</em></p>
 					    	
-							<p><em>Techs used: Javascript, HTML, CSS, Bootstrap, jQuery, Express, Node.</em></p>
 				    	</div>
 				    	
 				    	<div className="projectCard">
