@@ -185,6 +185,17 @@ body {
   min-height: 656px;
 }
 
+.projectCard {
+  border: 2px black solid;
+  background-color: rgba(128,128,128,0.2);
+  margin-bottom: 25px;
+  box-shadow: 5px 5px rgba(35,35,35,0.7);
+}
+
+#smallFont {
+  font-size: 12px;
+}
+
 #homeText1, #homeText2 {
   padding-top: 40px;
   font-size: 50px;

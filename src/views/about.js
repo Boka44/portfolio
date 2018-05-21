@@ -54,8 +54,9 @@ const MyStory = () => (
 		Soon after, I began creating personal projects using HTML and CSS. Eventually, I began teaching myself 
 		Node and React and found that everything just clicked. Getting a taste of this new found love for 
 		programming lead to the quitting of my sales job in August to pursue a career and future as a software 
-		developer. Now I can create fullstack applications using Javascript, HTML, CSS, Node, and React. Took a 
-		C++ class at a local community college where I not only thoroughly enjoyed creating various new programs, 
+		developer. Now I create fullstack applications using Javascript, HTML, CSS, Node, React and many more 
+		languages and frameworks. Took a C++ class at a local community college where I not only thoroughly enjoyed 
+		creating various new programs, 
 		I even scored a perfect 100% in the class. Currently working as a freelance developer with multiple clients
 		and a quickly growing portfolio.</p>
 		<hr/>
