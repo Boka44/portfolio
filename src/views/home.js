@@ -24,7 +24,7 @@ export class Home extends Component {
 				<div id="homeText1">
 						<Typist avgTypingDelay={70} >
 							<Typist.Delay ms={1200} />
-							Web App Developer
+							JavaScript Developer
 							<Typist.Delay ms={500} />
 								<br />
 							Musician
@@ -39,7 +39,7 @@ export class Home extends Component {
 					<div id="homeText2">
 						<Typist avgTypingDelay={70} >
 							<Typist.Delay ms={1200} />
-							Web App Developer
+							JavaScript Developer
 							<Typist.Delay ms={500} />
 								<br />
 							Musician
