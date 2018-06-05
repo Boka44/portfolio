@@ -9,6 +9,7 @@ import portfolio from '../images/portfolio.jpeg';
 import barjoker from '../images/barjoker.PNG';
 import a2ndlife from '../images/2ndlife.jpg';
 import fixCase from '../images/fixCase.PNG';
+import doyleRules from '../images/doylerules.PNG';
 
 export class Home extends Component {
 	
@@ -66,6 +67,18 @@ export class Home extends Component {
 					    	<p>Optimized page loading times from 20 seconds to 3.</p>
 					    	<p>Currently fixing other issues left by previous developers. Soon to start working on a new beta.</p>
 					    	<p><em>Techs used: Javascript, HTML, CSS, jQuery, PHP, Laravel, MySql, GoDaddy</em></p>
+				    	</div>
+
+				    	<div className="projectCard">
+					    	<img src={doyleRules} alt=""/>
+					    	<br/>
+					    	<a href="https://doylerules.band" target='_blank' rel="noopener noreferrer">
+					    	Click to view site</a>
+					    	<h2>Doyle Rules</h2>
+					    	<p>Site made for the Misfits Tribute Band Doyle Rules.</p>
+					    	<p>Set up band login for the CRM so they can edit content and shows. Created geolocation feature that tells
+					    	user of the closest show within the next 3 months. Contact form sends emails using Nodemailer.</p>
+					    	<p><em>Techs used: Javascript, HTML, CSS, SASS, ejs, MongoDB, Express, Node, AWS, GoDaddy</em></p>
 				    	</div>
 				    	
 				    	<div className="projectCard">
