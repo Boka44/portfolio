@@ -10,6 +10,8 @@ import barjoker from '../images/barjoker.PNG';
 import a2ndlife from '../images/2ndlife.jpg';
 import fixCase from '../images/fixCase.PNG';
 import doyleRules from '../images/doylerules.PNG';
+import stockApp from '../images/stockApp.PNG';
+import dagumbo from '../images/dagumbo.PNG';
 
 export class Home extends Component {
 	
@@ -57,6 +59,20 @@ export class Home extends Component {
 				  	Currently looking for a software engineer position within a company that can help me grow as developer.</h2>
 				    <hr/>
 				    <div className="fontOS">
+
+				    	<div className="projectCard">
+					    	<img src={dagumbo} alt=""/>
+					    	<br/>
+					    	<a href="http://dagumbo.com/" target='_blank' rel="noopener noreferrer">
+					    	Click to view site</a>
+					    	<a href="https://github.com/Boka44/dagumbo" target='_blank' rel="noopener noreferrer">
+					    	Click to view code</a>
+					    	<h2>Dagumbo</h2>
+					    	<p>Static site made for a client.</p>
+					    	<p>Dagumbo is a car restored to perfection by my client Lynn, with the goal of putting her in film and 
+					    	photography.</p>
+					    	<p><em>Techs used: Javascript, HTML, CSS, SASS, Bootstrap, Surge</em></p>
+				    	</div>
 				    	
 				    	<div className="projectCard">
 					    	<img src={a2ndlife} alt=""/>
@@ -74,11 +90,32 @@ export class Home extends Component {
 					    	<br/>
 					    	<a href="https://doylerules.band" target='_blank' rel="noopener noreferrer">
 					    	Click to view site</a>
+					    	<a href="https://github.com/Boka44/doyleRules" target='_blank' rel="noopener noreferrer">
+					    	Click to view code</a>
 					    	<h2>Doyle Rules</h2>
 					    	<p>Site made for the Misfits Tribute Band Doyle Rules.</p>
 					    	<p>Set up band login for the CRM so they can edit content and shows. Created geolocation feature that tells
 					    	user of the closest show within the next 3 months. Contact form sends emails using Nodemailer.</p>
 					    	<p><em>Techs used: Javascript, HTML, CSS, SASS, ejs, MongoDB, Express, Node, AWS, GoDaddy</em></p>
+				    	</div>
+
+				    	<div className="projectCard">
+					    	<img src={stockApp} alt=""/>
+					    	<br/>
+					    	<a href="https://github.com/Boka44/bizAppClient" target='_blank' rel="noopener noreferrer">
+					    	Click to view client code</a>
+					    	<a href="https://github.com/Boka44/bizAppServer" target='_blank' rel="noopener noreferrer">
+					    	Click to view server code</a>
+					    	<h2>Stock App</h2>
+					    	<p>Angular app made for a code challenge.</p>
+					    	<p>Learned and implemented Angular 6 to build the app in 6 days. The Challenge:</p>
+					    	<p>Develop a website for trading where the traders can either sign up or sign in 
+					    	(using Facebook or Google) and they should be navigated to the dashboard screen. 
+					    	Traders can mark the stocks as favourites by searching them. All the user favourites 
+					    	stocks are shown in the dashboard.</p>
+					    	<p>Used social logins like Google and Facebook, along with Json Web Tokens to authenticate the 
+					    	server and each endpoint.</p>
+					    	<p><em>Techs used: Javascript, HTML, CSS, Angular 6, MongoDB, Express, Node</em></p>
 				    	</div>
 				    	
 				    	<div className="projectCard">
@@ -86,6 +123,8 @@ export class Home extends Component {
 					    	<br/>
 					    	<a href="https://stormy-woodland-25699.herokuapp.com/" target='_blank' rel="noopener noreferrer">
 					    	Click to view site</a>
+					    	<a href="https://github.com/Boka44/Looking-Glass" target='_blank' rel="noopener noreferrer">
+					    	Click to view code</a>
 					    	<h2>Looking Glass</h2>
 					    	<p>Static site made for a client.</p>
 					    	<p>Looking Glass is a company in Redondo Beach that specializes in glass bottom boat 
@@ -99,6 +138,8 @@ export class Home extends Component {
 					    	<br/>
 					    	<a href="http://barjoker.pub" target='_blank' rel="noopener noreferrer">
 					    	Click to view site</a>
+					    	<a href="https://github.com/Boka44/barjoker" target='_blank' rel="noopener noreferrer">
+					    	Click to view code</a>
 					    	<h2>barjoker.pub</h2>
 					    	<p>Original application where friends put themselves through situations involving strangers, 
 					    	set up as a dare with successes and punishments. Currently a protoype. Version 1 expected soon.</p>
@@ -114,6 +155,10 @@ export class Home extends Component {
 					    	<br/>
 					    	<a href="http://codeboka.com/westCoast/" target='_blank' rel="noopener noreferrer">
 					    	Click to view site</a>
+					    	<a href="https://github.com/Boka44/westCoast" target='_blank' rel="noopener noreferrer">
+					    	Click to view client code</a>
+					    	<a href="https://github.com/Boka44/weatherServer" target='_blank' rel="noopener noreferrer">
+					    	Click to view server code</a>
 					    	<h2>West Coast Weather</h2>
 					    	<p>Weather App for West Coast Cities.</p>
 					    	<p>User uses the client to select a city and view an eight day forecast.
@@ -129,6 +174,9 @@ export class Home extends Component {
 					    	<a href="https://chrome.google.com/webstore/detail/fixcase/fnjkbfajkchfileiohngeejgcpgemndm" 
 					    	target='_blank' rel="noopener noreferrer">
 					    	Click to view in Web Store</a>
+					    	<a href="https://github.com/Boka44/fixCase" 
+					    	target='_blank' rel="noopener noreferrer">
+					    	Click to view code</a>
 					    	<h2>fixCase</h2>
 					    	<p>This extension offers a tool to correct capitalization errors in writing.</p>
 					    	<p>Offers Standard, camelCase, UPPERCASE, and lowercase conversion.</p>
