@@ -271,7 +271,7 @@ body {
 }
 
 #aboutBG {
-  background-color: #32584B;
+  background-color: #4e4e4e;
   padding-left: 100px;
   top: 0;
   left: 0;
@@ -290,7 +290,9 @@ body {
 
 #aboutImg {
   width: 100%;
-
+  margin: 25px;
+  border-right: solid black 2px;
+  border-bottom: solid black 3px;
 }
 
 #aboutTop {
@@ -402,7 +404,7 @@ body {
     bottom:0;
     top:0;
     position: static;
-    background-color: ;
+    /* background-color: ; */
     background-size: 100%;
   }
 
@@ -430,7 +432,7 @@ body {
   }
 
   #aboutBG {
-    background-color: #32584B;
+    background-color: #4e4e4e;
     padding-left: 0px;
     top: 0;
     left: 0;
@@ -591,7 +593,7 @@ body {
     bottom:0;
     top:0;
     position: static;
-    background-color: ;
+    /* background-color: ; */
     background-size: 100%;
   }
 
@@ -615,7 +617,6 @@ body {
   }
 
   #aboutBG {
-    background-color: #32584B;
     padding-left: 0px;
     top: 0;
     left: 0;
@@ -626,6 +627,13 @@ body {
     color: white;
     min-height: 100vh; 
     min-width: 100vw;
+  }
+
+  #aboutImg {
+    width: 100%;
+    margin: 0px;
+    border-right: none;
+    border-bottom: none;
   }
 
   #outreach {
@@ -770,7 +778,7 @@ body {
     bottom:0;
     top:0;
     position: static;
-    background-color: ;
+    /* background-color: ; */
     background-size: 100%;
     padding-left: 0px;
     padding-right: 0px;
@@ -820,6 +828,13 @@ body {
     color: white;
     min-height: 100vh; 
     min-width: 100vw;
+  }
+
+  #aboutImg {
+    width: 100%;
+    margin: 0px;
+    border-right: none;
+    border-bottom: none;
   }
 
   #outreach {

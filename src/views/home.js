@@ -12,6 +12,8 @@ import fixCase from '../images/fixCase.PNG';
 import doyleRules from '../images/doylerules.PNG';
 import stockApp from '../images/stockApp.PNG';
 import dagumbo from '../images/dagumbo.PNG';
+import ocean from '../images/oceanPNG.PNG';
+import bakhu from '../images/bakhupng.png';
 
 export class Home extends Component {
 	
@@ -56,9 +58,37 @@ export class Home extends Component {
 
 					
 				  	<h2>I build full stack, responsive web applications. My clients range from small, local businesses to startups.
-				  	Currently looking for a software engineer position within a company that can help me grow as developer.</h2>
+				  	Currently building my own company, Dev Dragon, and expanding my network.</h2>
 				    <hr/>
 				    <div className="fontOS">
+
+						<div className="projectCard">
+					    	<img src={bakhu} alt=""/>
+					    	<br/>
+					    	<a href="" target='_blank' rel="noopener noreferrer">
+					    	Click to view site</a>
+					    	<a href="https://github.com/Boka44/bakhu" target='_blank' rel="noopener noreferrer">
+					    	Click to view code</a>
+							<a href="https://github.com/Boka44/bakhuLambda" target='_blank' rel="noopener noreferrer">
+					    	Click to view lambda code</a>
+					    	<h2>Bakhu</h2>
+					    	<p>Site created for Bakhu Holdings</p>
+					    	<p>Bakhu Holdings info coming soon...</p>
+					    	<p><em>Techs used: Javascript, HTML, CSS, SASS, AWS Lambda and Lightsail, Node, MongoDB, Express.</em></p>
+				    	</div>
+
+						<div className="projectCard">
+					    	<img src={ocean} alt=""/>
+					    	<br/>
+					    	<a href="http://oceanpacificdreams.com/" target='_blank' rel="noopener noreferrer">
+					    	Click to view site</a>
+					    	<a href="https://github.com/Boka44/oceanPacific" target='_blank' rel="noopener noreferrer">
+					    	Click to view code</a>
+					    	<h2>Ocean Pacific Dreams</h2>
+					    	<p>Site created to drive sales for land in Costa Rica.</p>
+					    	<p>Ocean Pacific Dreams sells plots of land in various areas of Costa Rica.</p>
+					    	<p><em>Techs used: Javascript, HTML, CSS, SASS, AWS S3 Buckets and EB, Node, Express, MongoDB</em></p>
+				    	</div>
 
 				    	<div className="projectCard">
 					    	<img src={dagumbo} alt=""/>
