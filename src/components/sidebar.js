@@ -9,6 +9,7 @@ import { Home } from '../views/home';
 import { About } from '../views/about';
 import { Outreach } from '../views/outreach';
 import { Contact } from '../views/contact';
+import { Music } from '../views/music';
 
 export class Sidebar extends Component {
 
@@ -29,6 +30,9 @@ export class Sidebar extends Component {
 								<LinkContainer to="/outreach">
 									<p>Outreach</p>
 								</LinkContainer>
+								<LinkContainer to="/music">
+									<p>Music</p>
+								</LinkContainer>
 								<LinkContainer to="/contact">
 									<p>Contact</p>
 								</LinkContainer>
@@ -46,6 +50,7 @@ export class Sidebar extends Component {
                     <Route path="/about" component={About} />
                     <Route path="/outreach" component={Outreach} />
                     <Route path="/contact" component={Contact} />
+					<Route path="/music" component={Music} />
                 </div>
                     
 				</Router>

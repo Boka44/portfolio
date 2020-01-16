@@ -98,7 +98,7 @@ export class Outreach extends Component {
 						)}
 						<br/>
 						<Col sm={12}>
-						<h2>Groups</h2>
+						<h2 id="groupHeader">Groups</h2>
 						<hr/>
 						{groups.map((g) => 
 							<div className="fontOS" id="groupContainer">

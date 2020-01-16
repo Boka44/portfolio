@@ -271,7 +271,8 @@ body {
 }
 
 #aboutBG {
-  background-color: #4e4e4e;
+  /* background-color: #4e4e4e; */
+  background-image: url('./images/cro3.jpg');
   padding-left: 100px;
   top: 0;
   left: 0;
@@ -285,7 +286,13 @@ body {
 }
 
 #aboutContainer{
-  margin-left: 0px;
+  /* margin-left: 0px; */
+}
+
+#story {
+  margin: auto;
+  width: 100%;
+  background-color: rgba(49,49,49,0.7);
 }
 
 #aboutImg {
@@ -349,6 +356,10 @@ body {
   max-height: 200px;
 }
 
+#groupHeader {
+  margin-right: 100px;
+}
+
 #groupContainer {
   display: inline-flex;
   margin: auto;
@@ -367,6 +378,46 @@ body {
 
 #eventImage:hover {
   border: red solid 2px;
+}
+
+/***************************
+
+
+Music
+
+*/
+
+#musicBG {
+  background-color: black;
+  padding-left: 100px;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-shadow: rgba(0,0,0,.3) 0px 2px 4px;
+  color: white;
+  min-height: 100vh; 
+  min-width: 100vw;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(82, 82, 82, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
@@ -554,6 +605,16 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  /*Music*/
+  .content {
+    /* position: fixed; */
+    /* bottom: 0; */
+    background: rgba(82, 82, 82, 0.5);
+    color: #f1f1f1;
+    width: 66%;
+    padding: 20px;
+    margin-bottom: 75px;
+  }
 
 }
 
@@ -561,6 +622,10 @@ body {
 
   .hiddenMobile {
     display: none;
+  }
+
+  #groupHeader {
+    margin-right: 0px;
   }
 
   #homeText1 {
@@ -740,12 +805,28 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+  /*Music*/
+  .content {
+    /* position: fixed; */
+    /* bottom: 0; */
+    background: rgba(82, 82, 82, 0.5);
+    color: #f1f1f1;
+    width: 80%;
+    padding: 20px;
+    margin-left: -12%;
+    margin-bottom: 49%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
 
   .hiddenMobile {
     display: none;
+  }
+
+  #groupHeader {
+    margin-right: 0px;
   }
 
   #homeText1 {
@@ -938,6 +1019,18 @@ body {
   .footerPadding {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  /*Music*/
+  .content {
+    /* position: fixed; */
+    /* bottom: 0; */
+    margin-left: -5%;
+    background: rgba(82, 82, 82, 0.5);
+    color: #f1f1f1;
+    width: 66%;
+    padding: 20px;
+    margin-bottom: 75px;
   }
 }
 

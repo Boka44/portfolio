@@ -12,12 +12,12 @@ export class About extends Component {
 			<div id="aboutBG" className='footerPadding'>
 		  		<Grid id='aboutContainer'>
 		  			<Row>
-		  				<Col md={4} sm={12} style={{padding: '0px'}}>
+		  				{/* <Col md={4} sm={12} style={{padding: '0px'}}>
 		  					<Image src={me} id='aboutImg' />
-		  				</Col>
-		  				<Col md={1}>
-		  				</Col>
-		  				<Col md={7} sm={12}>	      
+		  				</Col> */}
+		  				{/* <Col md={1}>
+		  				</Col> */}
+		  				<Col md={12} sm={12} id="story">	      
 			  				<MyStory/>
 						</Col>
 					</Row>	
@@ -45,5 +45,7 @@ const MyStory = () => (
 		<p>To read my origin story on my blog, click the link below:</p>
 		<a href='https://hrboka.wordpress.com/2017/12/06/gitting-sick-story-time-with-boka-devember-day-5/' target='_blank' rel="noopener noreferrer">
 		My Story</a>
+
+		
 	</div>
 )
