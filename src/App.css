@@ -606,14 +606,18 @@ Music
     padding-bottom: 50px;
   }
   /*Music*/
+
+  #musicBG {
+    padding-left: 0px;
+  }
+  
   .content {
-    /* position: fixed; */
-    /* bottom: 0; */
     background: rgba(82, 82, 82, 0.5);
     color: #f1f1f1;
-    width: 66%;
+    width: 80%;    
+    margin: 6%;
+    margin-bottom: 23%;
     padding: 20px;
-    margin-bottom: 75px;
   }
 
 }
@@ -807,15 +811,17 @@ Music
   }
 
   /*Music*/
+
+  #musicBG {
+    padding-left: 0px;
+  }
   .content {
-    /* position: fixed; */
-    /* bottom: 0; */
     background: rgba(82, 82, 82, 0.5);
     color: #f1f1f1;
-    width: 80%;
+    width: 80%;    
+    margin: 6%;
+    margin-bottom: 23%;
     padding: 20px;
-    margin-left: -12%;
-    margin-bottom: 49%;
   }
 }
 
@@ -1022,15 +1028,22 @@ Music
   }
 
   /*Music*/
+
+  #musicBG {
+    padding-left: 0px;
+  }
+
   .content {
     /* position: fixed; */
     /* bottom: 0; */
-    margin-left: -5%;
+    /* margin-left: -14%; */
     background: rgba(82, 82, 82, 0.5);
     color: #f1f1f1;
-    width: 66%;
+    width: 80%;    
+    margin: 6%;
+    margin-bottom: 23%;
     padding: 20px;
-    margin-bottom: 75px;
+    /* margin-bottom: 100px; */
   }
 }
 
